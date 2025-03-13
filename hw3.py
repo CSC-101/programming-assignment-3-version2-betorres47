@@ -12,7 +12,7 @@ from data import CountyDemographics
 def population_total(country: list[CountyDemographics]) -> int:
     total = 0                                       # create total
     for x in country:                               # for loop to sum population
-        total += x.population["2024 Population"]    # sum population
+        total += x.population["2014 Population"]    # sum population
     return total
 
 
